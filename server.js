@@ -33,5 +33,6 @@ var routes = require('./controllers/burgers_controller.js');
 app.use('/', routes);
 
 // Define port number and start server listening on defined port number
-var port = process.env.PORT || 3000;
-app.listen(port);
+// var port = process.env.PORT || 3000;
+// app.listen(port);
+module.exports = app;
